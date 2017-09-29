@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00bfa5</color>
+    <color name="colorPrimaryDark">#008e76</color>
+    <color name="colorAccent">#f44336</color>
+    <color name="colorPrimaryText">@android:color/black</color>
+
+    <color name="dot_light_screen1">@color/colorAccent</color>
+    <color name="dot_inactive_screen_color">#525756</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen1</item>
+
+    </array>
+
+
+    <array name="array_dot_inactive">
+
+        <item>@color/dot_inactive_screen_color</item>
+        <item>@color/dot_inactive_screen_color</item>
+        <item>@color/dot_inactive_screen_color</item>
+    </array>
+</resources>
